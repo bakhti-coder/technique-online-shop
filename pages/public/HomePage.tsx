@@ -1,36 +1,36 @@
 import { ChevronDown } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
-const categories = [
-  {
-    name: "Автоспорт",
-    subcategory: [
-      {
-        name: "Белье",
-      },
-      {
-        name: "Весы",
-      },
-      {
-        name: "Защита шеи HANS",
-      },
-    ],
-  },
-  {
-    name: "Картинг",
-    subcategory: [
-      {
-        name: "Белье",
-      },
-      {
-        name: "Весы",
-      },
-      {
-        name: "Защита шеи HANS",
-      },
-    ],
-  },
-];
+// const categories = [
+//   {
+//     name: "Автоспорт",
+//     subcategory: [
+//       {
+//         name: "Белье",
+//       },
+//       {
+//         name: "Весы",
+//       },
+//       {
+//         name: "Защита шеи HANS",
+//       },
+//     ],
+//   },
+//   {
+//     name: "Картинг",
+//     subcategory: [
+//       {
+//         name: "Белье",
+//       },
+//       {
+//         name: "Весы",
+//       },
+//       {
+//         name: "Защита шеи HANS",
+//       },
+//     ],
+//   },
+// ];
 
 const categories2 = [
   "Автоспорт",
