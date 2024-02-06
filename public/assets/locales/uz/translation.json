@@ -1,0 +1,15 @@
+{
+  "header": {
+    "about_me": "Biz haqimizda",
+    "contact": "Aloqa",
+    "delivery": "Yetkazib berish",
+    "our_salon": "Bizning do'konlarimiz",
+    "login": "Kirish",
+    "register": "Ro'yxatdan o'tish",
+    "tell_me": "Menga qo'ng'iroq qiling",
+    "card": "Savat"
+  },
+  "home": {
+    "popular_sct": "Mashhur bo'limlar"
+  }
+}

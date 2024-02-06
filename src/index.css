@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none 0;
+  -webkit-tap-highlight-color: transparent;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  border: 0 solid;
+  background: none;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*,
+*::-webkit-outer-spin-button,
+*::-webkit-inner-spin-button,
+*::-webkit-search-cancel-button,
+*::-webkit-search-results-button {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  font-family: "Russo One", sans-serif;
+}
+
+.categroies-name:hover > * {
+  transform: rotate(180deg) !important;
+}
+
+.first-col {
+  background: white;
+  width: 470px;
+  clip-path: polygon(0 0, 100% 0%, 79% 100%, 0% 100%);
+}
+.second-col {
+  background: white;
+  clip-path: polygon(27% 0, 100% 0%, 73% 100%, 0% 100%);
+}
